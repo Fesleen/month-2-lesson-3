@@ -234,5 +234,94 @@
   }
   
   /* hero end */
+
   
+  /* main start */
+
+.main__cards {
+    margin-top: 100px;
+  }
+  
+  .main__cards--top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main__cards--top--left {
+    margin: 0;
+  }
+  
+  .main__cards--top--left--h2 {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    /* 133.333% */
+    margin-right: 100px;
+  }
+  
+  .main__cards--top--left--p {
+    width: 573px;
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+  }
+  
+  .main__cards--top--right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65%;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .main--icon-1 {
+    margin-right: 41px;
+    margin-bottom: 55px;
+  }
+  
+  .main--icon-2 {
+    margin-right: 20px;
+  }
+  
+  .main__cards--bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+  
+  .main__cards--bottom--card {
+    text-align: center;
+  }
+  
+  .main__cards--bottom--h3 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .main__cards--bottom--p {
+    color: #000;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  /* main end */
   
